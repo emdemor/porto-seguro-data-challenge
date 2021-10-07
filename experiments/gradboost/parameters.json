@@ -1,0 +1,100 @@
+[
+  {
+    "parameter": "n_estimators",
+    "type": "integer",
+    "estimate": 100,
+    "range": [
+      50,
+      150
+    ],
+    "step": 10,
+    "description": "classifier"
+  },
+  {
+    "parameter": "criterion",
+    "type": "categorical",
+    "estimate": "gini",
+    "range": [
+      "entropy"
+    ],
+    "step": "",
+    "description": "classifier"
+  },
+  {
+    "parameter": "max_depth",
+    "type": "integer",
+    "estimate": 15,
+    "range": [
+      10,
+      20
+    ],
+    "step": 2,
+    "description": "classifier"
+  },
+  {
+    "parameter": "min_samples_split",
+    "type": "integer",
+    "estimate": 2,
+    "range": [
+      2,
+      6
+    ],
+    "step": 1,
+    "description": "classifier"
+  },
+  {
+    "parameter": "min_samples_leaf",
+    "type": "integer",
+    "estimate": 1,
+    "range": [
+      1,
+      4
+    ],
+    "step": 1,
+    "description": "classifier"
+  },
+  {
+    "parameter": "min_weight_fraction_leaf",
+    "type": "real",
+    "estimate": 0.0,
+    "range": [
+      0.0,
+      0.5
+    ],
+    "step": 0.05,
+    "description": "classifier"
+  },
+  {
+    "parameter": "max_features",
+    "type": "real",
+    "estimate": 1.0,
+    "range": [
+      0.5,
+      1.0
+    ],
+    "step": 0.05,
+    "description": "classifier"
+  },
+  {
+    "parameter": "z_score",
+    "type": "real",
+    "estimate": 3,
+    "range": [
+      2.5,
+      10
+    ],
+    "step": 0.2,
+    "description": "preprocessing"
+  },
+  {
+    "parameter": "min_correlation",
+    "type": "real",
+    "estimate": 0.02,
+    "range": [
+      0.0,
+      0.2
+    ],
+    "step": 0.005,
+    "description": "preprocessing"
+  }
+]

@@ -1,0 +1,88 @@
+- estimate: 0.04050336194583726
+  parameter: learning_rate
+  range:
+    - 0.001
+    - 0.1
+  scale: uniform
+  type: real
+  step: 0.001
+- estimate: 200
+  parameter: n_estimators
+  range:
+    - 50
+    - 2200
+  scale: log-uniform
+  type: integer
+  step: 1
+- estimate: 5
+  parameter: max_depth
+  range:
+    - 3
+    - 6
+  scale: uniform
+  type: integer
+  step: 1
+- estimate: 1.0279584099233092
+  parameter: min_child_weight
+  range:
+    - 0.1
+    - 2.2
+  scale: log-uniform
+  type: real
+  step: 0.05
+- estimate: 0.9305082924305981
+  parameter: subsample
+  range:
+    - 0.0
+    - 1.00
+  scale: uniform
+  type: real
+  step: 0.005
+- estimate: 0.9280486110190919
+  parameter: reg_alpha
+  range:
+    - 0.0
+    - 1.00
+  scale: uniform
+  type: real
+  step: 0.005
+- estimate: 0.13762275248202657
+  parameter: reg_lambda
+  range:
+    - 0.0
+    - 1.00
+  scale: uniform
+  type: real
+  step: 0.005
+- estimate: 0.8556106773741573
+  parameter: colsample_bynode
+  range:
+    - 0.0
+    - 1.00
+  scale: uniform
+  type: real
+  step: 0.001
+- estimate: 0.2899161374531161
+  parameter: colsample_bytree
+  range:
+    - 0.0
+    - 1.00
+  scale: uniform
+  type: real
+  step: 0.001
+- estimate: 2
+  parameter: num_parallel_tree
+  range:
+    - 1
+    - 5
+  scale: uniform
+  type: integer
+  step: 1
+- estimate: 0
+  parameter: max_delt
+  range:
+    - 0
+    - 5
+  scale: uniform
+  type: integer
+  step: 1
